@@ -1,0 +1,3 @@
+1、
+char response;
+char itable, latan;

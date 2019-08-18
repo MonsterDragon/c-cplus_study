@@ -1,0 +1,4 @@
+1、
+int erns;
+int hogs, cows,goats;
+2、为一个int大小的变量赋予名称并分配内存空间

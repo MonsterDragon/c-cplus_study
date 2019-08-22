@@ -1,0 +1,4 @@
+float noah;
+double trouble;
+float plank = 6.63e-34;
+long double gnp;

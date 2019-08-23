@@ -1,0 +1,6 @@
+函数：strlen()
+关键字：const
+字符串
+如何创建、存储字符串
+如何使用strlen()
+用c预处理器指令#define和ANSIC的const修饰创建符号常量

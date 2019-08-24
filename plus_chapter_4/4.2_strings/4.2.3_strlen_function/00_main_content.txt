@@ -1,0 +1,9 @@
+What's your name?
+Hello, shuzhan. You are an extraodinary being
+Your name of 7 letters occupies 40 memory cells.
+The phrase of praise has 29 letters and occupies 30 memory cells.
+1、sizeof运算符报告，name数组有40个存储单元，但是前7个单元用来存储"shuzhan"
+name数组的第8个单元存储空字符，strlen并未计入
+2、sizeof的转换说明%zd同样适用于strlen
+3、sizeof是否使用()
+运算对象是类型时，圆括号必不可少，但是对于特定量（变量、常量）可有可无

@@ -1,0 +1,2 @@
+1、const关键字，用于限定一个变量为只读
+const int MONTHS = 12; // MONTHS在程序中不可更改，值为12

@@ -1,0 +1,4 @@
+sizeof运算符以字节为单位返回运算对象的大小
+C语言规定，sizeof返回size_t类型的值。这是一个无符号整数类型，但它不是新类型，它是怨言定义的标准类型
+C语言的typedef机制，允许程序员为现有类型创建别名
+typedef double real

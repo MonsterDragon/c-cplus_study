@@ -1,0 +1,10 @@
+后缀递增
+a = 1
+a_post = a++
+a_post = 1
+a = 2
+前缀递增
+b = 1
+b_post = ++b
+b_post = 2
+b = 2

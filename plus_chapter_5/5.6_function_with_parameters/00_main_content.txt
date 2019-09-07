@@ -1,0 +1,4 @@
+如果函数不接受参数，需要在括号中填上void
+实参argument
+形参parameter
+

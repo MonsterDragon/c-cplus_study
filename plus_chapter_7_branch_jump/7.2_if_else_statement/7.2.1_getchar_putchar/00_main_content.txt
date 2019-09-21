@@ -1,0 +1,3 @@
+ch = getchar();	scanf("%c", &ch);
+putchar(ch);	printf("%c", &ch);
+getchar() putchar()位于stdio.h的头文件中

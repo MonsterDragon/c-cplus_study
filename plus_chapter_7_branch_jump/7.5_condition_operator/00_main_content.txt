@@ -1,0 +1,4 @@
+条件运算符：?:
+三元运算符
+x = (y < 0) ? -y : y
+expression1 ? expression2 : expression3

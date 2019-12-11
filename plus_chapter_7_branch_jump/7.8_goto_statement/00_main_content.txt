@@ -1,0 +1,4 @@
+goto语句有两部分：goto和标签名。标签名遵循变量命名规则
+goto part2
+要让这条语句正常工作，函数必须包含另一条标为part2的语句，该语句以标签名后紧跟一个冒号开始
+part2: printf("Refined analysis:\n")

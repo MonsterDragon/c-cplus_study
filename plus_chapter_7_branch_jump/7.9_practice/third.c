@@ -3,11 +3,11 @@
 
 int main(void)
 {
-    char ch;
+    int ch;
     int odd_num = 0, even_num = 0, odd_total=0, even_total=0, reminder;
     float odd_average=0, even_average=0;
 
-    while ((ch = getchar()) != '0')
+    while ((scanf("%d", &ch)) == 1 && ch != 0)
     {
 	if (ch == ' ' || ch == '\n')
 		continue;
@@ -32,7 +32,7 @@ int main(void)
     {
     	even_average = even_total / even_num;
     }
-    printf("odd num is %d, total is %d, average is %.2f\n", (odd_num, odd_total, odd_average));
-    printf("even num is %d, total is %d, average is %.2f\n", (even_num, even_total, even_average));
+    printf("odd num is %d, total is %d, average is %.2f\n", odd_num, odd_total, odd_average);
+    printf("even num is %d, total is %d, average is %.2f\n", even_num, even_total, even_average);
     printf("finish polling\n");
 }

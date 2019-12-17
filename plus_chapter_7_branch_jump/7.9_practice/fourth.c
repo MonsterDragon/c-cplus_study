@@ -4,7 +4,7 @@
 int main(void)
 {
 	char ch;
-	int instead = 0;
+	int instead = 0, i;
 
 	while ((ch = getchar()) != '#')
 	{
@@ -17,7 +17,7 @@ int main(void)
 		else if (ch == '!')
 		{
 			ch = '!';
-			for (i=0, i++, i<2)
+			for (i=0; i<2; i++)
 			{
 				putchar(ch);
 			}

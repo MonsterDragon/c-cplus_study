@@ -1,0 +1,2 @@
+getchar() putchar()只处理一个字符
+自从ANSIC标准发布以后，c就把stdio.h头文件与使用getchar()和putchar()相关联

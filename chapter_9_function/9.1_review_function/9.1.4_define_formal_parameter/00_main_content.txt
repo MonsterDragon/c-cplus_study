@@ -1,0 +1,2 @@
+ANSI C 要求每一个变量都声明其类型
+void dibs(int a, int b, int c)

@@ -1,0 +1,2 @@
+void show_n_char(char ch, int num);
+在原型中使用变量名并没有实际创建变量，char仅代表了一个插入类型的变量

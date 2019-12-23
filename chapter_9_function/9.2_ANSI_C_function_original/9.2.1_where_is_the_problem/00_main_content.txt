@@ -1,0 +1,9 @@
+32位操作系统
+short占 2 字节，
+int 、float、long 都占 4 字节，
+只有double 占8 字节
+64位操作系统
+short占2字节
+int、float占4字节
+long占8字节
+double占8字节

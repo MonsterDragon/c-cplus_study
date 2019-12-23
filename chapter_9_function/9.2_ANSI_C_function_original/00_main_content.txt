@@ -1,0 +1,7 @@
+把整个函数定义在第一次调用该函数之前
+int imax(int a, int b) {return a > b ? a : b}
+int main()
+{
+	int x, z, max;
+	max = imax(x, z);
+}

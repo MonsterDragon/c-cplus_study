@@ -1,0 +1,5 @@
+gcc file1.c file2.c
+将编译两个文件并生成一个名为a.out的可执行文件
+另外，还生成两个名为file1.o file2.o的目标文件
+如果后来改动了file1.c，而file2.c不变，可以使用一下命令编译第一个文件，并与第2个文件的目标代码合并
+gcc file1.c file2.o

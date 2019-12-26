@@ -1,0 +1,12 @@
+交换两个变量的值
+x=temp
+x=y
+y=temp
+Originally m = 5 addredd = 0x7ffe67f9c9ec and n = 10 address = 0x7ffe67f9c9e8.
+Original u = 5 address = 0x7ffe67f9c9ac and v = 10 address = 0x7ffe67f9c9a8.
+Now u = 10 address = 0x7ffe67f9c9ac and v = 5 address = 0x7ffe67f9c9a8.
+Now m = 5 address = 0x7ffe67f9c9ec and n = 10 address = 0x7ffe67f9c9e8.
+从函数的执行结果可以看出main函数中的m, n两个变量的值未发生改变，地址也未发生改变
+interchange函数中变量的地址未发生改变，但是值变了
+结论：
+两个函数之间的作用域是不同的，第一个函数所传递的变量值仅是值的传递，四个变量都有自己的地址，且不因值的更改而更改

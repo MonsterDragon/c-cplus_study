@@ -1,0 +1,7 @@
+若函数的实参是数组元素则函数原型和函数的声明中函数的形参必须定义一个某种类型的指针变量来存储这个实际数组参数
+在函数原型或函数定义中，才可以用int ar[]来代替int * ar(* 间接运算符)
+
+int sum(int * ar, int n); <=>
+int sum(int *, int); <=>
+int sum(int ar[], int n); <=>
+int sum(int [], int);

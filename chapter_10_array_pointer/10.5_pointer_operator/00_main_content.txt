@@ -1,0 +1,29 @@
+pointer value, dereferenced pointer, pointer address:
+ptr1 = 0x7ffd98afbb70, *ptr1 = 100, &ptr1 = 0x7ffd98afbb68
+
+adding an int to a pointer:
+ptr1 + 4 = 0x7ffd98afbb80, *(ptr1 + 4) = 500.
+
+values after ptr1++:
+ptr1 = 0x7ffd98afbb74, *ptr1 = 200, &ptr1 = 0x7ffd98afbb68.
+
+values after ptr2--:
+ptr2 = 0x7ffd98afbb74, *ptr2 = 200, &ptr2 = 0x7ffd98afbb60.
+
+Pointers reset to original:
+ptr1 = 0x7ffd98afbb70, ptr2 = 0x7ffd98afbb78
+
+subtracting on pointer fron another:
+ptr2 = 0x7ffd98afbb78, ptr1 = 0x7ffd98afbb70, ptr2 - ptr1 = 2
+
+subtracting on pointer from a pointer:
+ptr3 = 0x7ffd98afbb80, ptr3 - 2 = 0x7ffd98afbb78
+
+ptr1 + 4 = ptr1[4]
+
+1、赋值：地址应该和指针类型兼容。将地址赋给指针（指针可以和整数进行+-，但是地址不能和整数进行+-），不能把double类型的地址赋给指向int的指针
+2、指针和整数相加：整数会和指针所指向类型的大小相乘，然后把结果与初始地址相加。因此ptr1 + 4与urn[4]等价
+3、指针求差：ptr2 - ptr1得2，意思是这两个指针所指向的两个元素相隔两个int，而不是2字节
+4、使用关系运算符可以比较两个指针的值，前提是两个指针都指向相同类型的对象
+
+千万不要解引用未初始化的指针

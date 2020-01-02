@@ -1,0 +1,3 @@
+const用法灵活，可以创建const数组、const指针和指向const的指针
+const double * pc = rates -- pc指针所储存的地址所指向的对象的数值是不能更改的，但是指针所存储的地址是可更改的
+const double const * pc = rates -- pc指针所存储的地址是不可改变的，地址所指向的对象也是不可更改的

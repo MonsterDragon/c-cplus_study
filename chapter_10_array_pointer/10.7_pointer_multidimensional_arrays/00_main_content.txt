@@ -1,0 +1,13 @@
+int zippo[4][2]
+
+zippo数组名是数组首元素的地址
+zippo是该数组第一个元素的指针，zippo == &zippo[0]
+			       *zippo == zippo[0]
+zippo[0]表示的是二阶数组，     zippo[0] == &zippo[0][0]
+			       *zippo[0] == *&zippo[0][0]
+			   =>  *zippo == zippo[0] == &zippo[0][0]
+			       *zippo[0] == *&zippo[0][0]
+			   =>  **zippo == *&zippo[0][0]
+
+给指针或地址加1，其值会增加对应类型大小的数值。
+在这方面，zippo和zippo[0]不同，因为zippo指向的对象占用了两个int大小，而zippo[0]是一个占用一个int大小对象的地址，而zippo是占用两个int大小对象的地址

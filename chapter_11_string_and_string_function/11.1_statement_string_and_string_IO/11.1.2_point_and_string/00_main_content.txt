@@ -1,0 +1,2 @@
+语句copy = mesg，将mesg的值赋给copy，即让copy也指向mesg指向的字符串
+python中的浅拷贝
